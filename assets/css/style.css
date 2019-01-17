@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+#logo{
+    height: 50px;
+    background-color: #4aaaa5;
+    float: left;
+    color:  #fff;
+    margin: 0px 0px 0px 20%;
+    padding: 20px 20px 0px 20px;
+}
+
+.nav{
+    color: #000000;
+    float: right;
+    height: 125px;
+    padding: 25px 0px 0px 0px;
+    margin:0px 20% 0px 0px;
+}
+
+ header{
+    background-color:#fff;
+    height: 70px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    box-shadow: 20px 0px blue;
+    
+    
+    
+}
+section{
+    width: 60%;
+    padding: 20px 20px 20px 20px;
+    margin:50px 20% 20px 20%;
+    background-color: #fff;
+}
+
+body{
+    background-image: url(../images/wavy-dots.png);
+}
+
+img{
+float: left;
+padding: 25px;
+}
+
+p{
+    padding: 25 px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom:-50px;
+}
+
+.footer, .push{
+    height: 50px;
+}
+
+footer{
+    background-color: #666;
+    border:50px 0px 0px 0px;
+    height: 50px;
+    border-top: solid;
+    border-top-color: #4aaaa5;
+    text-align: center;
+    padding: 15px;
+}
