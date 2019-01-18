@@ -17,28 +17,41 @@ html, body{
 }
 
 .nav{
-    color: #000000;
     float: right;
     height: 125px;
     padding: 25px 0px 0px 0px;
     margin:0px 20% 0px 0px;
 }
 
+.nav a{
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777;
+}
+
  header{
+    overflow: auto;
     background-color:#fff;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
     height: 70px;
     margin: 0px 0px 0px 0px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    box-shadow: 20px 0px blue;
-    
-    
-    
+ }
+h2 {
+    color: #4aaaa5;
+    padding: 0px 0px 20px 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+
 }
+
 section{
     width: 60%;
     padding: 20px 20px 20px 20px;
     margin:50px 20% 20px 20%;
     background-color: #fff;
+    overflow: hidden;
 }
 
 body{
@@ -71,4 +84,32 @@ footer{
     border-top-color: #4aaaa5;
     text-align: center;
     padding: 15px;
+}
+
+
+.image{
+    height: 200px;
+    float: left;
+    width: 200px;
+    position:relative;
+    margin: 10px;
+
+}
+.image img{
+    height: 200px;
+    width: 200px;
+    padding: 0px;
+}
+
+.image p{
+    position: absolute;
+    bottom: 30px;
+    height:40px;
+    background-color:#4aaaa5; 
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+
 }
