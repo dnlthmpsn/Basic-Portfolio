@@ -2,25 +2,28 @@
     margin: 0;
     padding: 0;
 }
-
-html, body{
+.wrapper{
+    position: relative;
     height: 100%;
-    margin: 0;
+    width: 100%;
+
 }
+
 #logo{
     height: 50px;
     background-color: #4aaaa5;
     float: left;
     color:  #fff;
-    margin: 0px 0px 0px 20%;
+    margin: 0px 0px 0px 140px;
     padding: 20px 20px 0px 20px;
 }
 
 .nav{
     float: right;
+    position: absolute;
+    right: 180px;
     height: 125px;
     padding: 25px 0px 0px 0px;
-    margin:0px 20% 0px 0px;
 }
 
 .nav a{
@@ -47,11 +50,13 @@ h2 {
 }
 
 section{
-    width: 960px%;
+    width: 920px;
     padding: 20px 20px 20px 20px;
-    margin:50px 20% 20px 20%;
+    position: absolute;
+    left: 140px;
     background-color: #fff;
     overflow: hidden;
+    margin: 0px 0px 30px 0px;
     
 }
 
@@ -68,26 +73,22 @@ p{
     padding: 25 px;
 }
 
-.wrapper {
-    min-height: 100%;
-    margin-bottom:-50px;
-}
-
-.footer, .push{
-    height: 50px;
-}
 
 footer{
     background-color: #666;
-    border:50px 0px 0px 0px;
+    border-top:50px;
     height: 50px;
     border-top: solid;
     border-top-color: #4aaaa5;
     text-align: center;
-    padding: 15px;
+    position: absolute; 
+    margin-top: -50px;
+    bottom: 0; 
+    width: 100%;
 }
 
 
+/* projects page */
 .image{
     height: 200px;
     float: left;
@@ -114,7 +115,10 @@ footer{
     margin: 0px;
 }
 
-
+/* Contact Page */
+.contact_form {
+    padding: 20px 0px 0px 0px;
+}
 
 .contact_form input[type=text], select {
   width:100%;
@@ -144,7 +148,8 @@ footer{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    resize: horizontal;
+    resize: vertical;
+    height: 200px;
   }
 
 
