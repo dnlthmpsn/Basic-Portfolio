@@ -40,15 +40,19 @@ p {
     color: #777;
 }
 /* **START of header** */
- 
 
-header{
+
+
+
+#pagetop{
     background-color:#fff;
     width: 100%;
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 70px;
+    position: fixed;
+    
  }
 
  .navbar{
@@ -79,6 +83,13 @@ header{
     color: #777;
 }
 
+.nav a:hover{
+    font-weight: bold;
+    color:white;
+    background-color: #4aaaa5;
+
+}
+
 
  /* ** ** END of header ** ** */
 
@@ -94,14 +105,14 @@ header{
 
 
 section{
-    width: 920px;
-    padding: 20px 20px 20px 20px;
+    width:100%;
+    max-width: 960px;
+    padding: 40px;
     position: relative;
     background-color: #fff;
     margin: auto;
     overflow: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 0px 0px 0px 40px;
 
 }
 
@@ -204,13 +215,18 @@ hr {
     height: 200px;
   }
 
-  .contact_form input[type=submit], select {
+  .button{
       background-color: #4aaaa5;
       color: #fff;
       width: 100px;
       height: 40px;
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       font-size: 100%;
+  }
+
+  .button:hover{
+      background-color: #198882;
+    margin: 0px 0px 0px 3px;      
   }
 
   /* ** END OF contact pact ** */
